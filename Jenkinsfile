@@ -22,7 +22,7 @@ pipeline{
         	}
 
         }
-	stager('Deploy'){
+	stage('Deploy'){
 		steps{
                   sh './jenkins/deploy/deploy.sh'
         	}
